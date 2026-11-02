@@ -25,7 +25,9 @@ uv run jupyter lab
 Or use `pip install -r requirements.txt`.
 
 The data, classifier heads and saved concept banks are too large for git. Download
-`task_agnostic_assets.zip` and extract it in the repository root:
+`task_agnostic_assets.zip` 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23890282.svg)](https://doi.org/10.5281/zenodo.23890282) from Zenodo
+and extract it in the repository root:
 
 ```bash
 unzip task_agnostic_assets.zip -d .
