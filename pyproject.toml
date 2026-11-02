@@ -1,0 +1,32 @@
+[project]
+name = "PLACE-demo"
+version = "0.1.0"
+description = "PLACE: Patch-Level Agnostic Concept Extraction -- Demo Notebook"
+requires-python = ">=3.11, <3.14"
+dependencies = [
+    "torch==2.8.0",
+    "torchvision==0.23.0",
+    "timm",
+    "tqdm",
+    "numpy",
+    "matplotlib",
+    "pillow",
+    "scipy",
+    "pandas",
+    "scikit-learn",
+    "jupyterlab",
+    "ipykernel",
+
+]
+
+[tool.uv]
+environments = ["sys_platform == 'darwin'", "sys_platform == 'linux'", "sys_platform == 'win32'"]
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu128", marker = "sys_platform == 'win32'" }
+torchvision = { index = "pytorch-cu128", marker = "sys_platform == 'win32'" }

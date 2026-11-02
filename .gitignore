@@ -1,0 +1,23 @@
+# Large assets are not committed: they are distributed separately as
+# task_agnostic_assets.zip (see the README). Extracting it here populates:
+#   data/          the ImageNet / COCO pools + church_images.npz
+#   models/        the classifier heads (COCO probes + MAE ImageNet checkpoint)
+#   results/banks/ the 400 concept banks + cached token sets
+data/
+models/
+*.npz
+*.pth
+*.zip
+
+# Under results/, git tracks only the small index files and the cached evaluation.
+results/**
+!results/**/
+!results/**/manifest_*.csv
+!results/agnostic/bank_faithfulness_eval.csv
+
+# Notebook run artifacts and local files.
+output/
+trash/
+.ipynb_checkpoints/
+.venv/
+__pycache__/

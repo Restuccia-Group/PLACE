@@ -1,0 +1,15 @@
+# Index for CUDA 12.8 PyTorch builds (Win32)
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+torch==2.8.0
+torchvision==0.23.0
+timm
+tqdm
+numpy
+matplotlib
+pillow
+scipy
+pandas
+scikit-learn
+jupyterlab
+ipykernel
