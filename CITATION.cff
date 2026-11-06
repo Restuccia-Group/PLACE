@@ -1,0 +1,62 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the NeurIPS 2026 paper below."
+title: "PLACE: Patch-Level Agnostic Concept Extraction"
+type: software
+authors:
+  - family-names: Onorato
+    given-names: Gabriele
+    affiliation: Northeastern University
+    email: onorato.g@northeastern.edu
+    orcid: "https://orcid.org/0009-0005-4515-4171"
+  - family-names: Silvestri
+    given-names: Fabrizio
+    affiliation: Sapienza University of Rome
+  - family-names: Bastian
+    given-names: Nathaniel D.
+    affiliation: Syracuse University
+  - family-names: Restuccia
+    given-names: Francesco
+    affiliation: Northeastern University
+repository-code: "https://github.com/Restuccia-Group/PLACE"
+url: "https://www.gabrieleonorato.com/PLACE/"
+license: CC-BY-NC-ND-4.0
+identifiers:
+  - type: url
+    value: "https://openreview.net/forum?id=8QlhKxCYSB"
+    description: "Paper on OpenReview"
+keywords:
+  - explainable AI
+  - concept extraction
+  - vision transformers
+  - foundation models
+preferred-citation:
+  type: conference-paper
+  title: "PLACE: Patch-Level Agnostic Concept Extraction"
+  authors:
+    - family-names: Onorato
+      given-names: Gabriele
+      affiliation: Northeastern University
+      orcid: "https://orcid.org/0009-0005-4515-4171"
+    - family-names: Silvestri
+      given-names: Fabrizio
+      affiliation: Sapienza University of Rome
+    - family-names: Bastian
+      given-names: Nathaniel D.
+      affiliation: Syracuse University
+    - family-names: Restuccia
+      given-names: Francesco
+      affiliation: Northeastern University
+  collection-title: "Advances in Neural Information Processing Systems"
+  conference:
+    name: "The Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS 2026)"
+  year: 2026
+  url: "https://openreview.net/forum?id=8QlhKxCYSB"
+references:
+  - type: data
+    title: "PLACE task-agnostic assets: data, classifier heads and concept banks"
+    doi: 10.5281/zenodo.23890282
+    url: "https://doi.org/10.5281/zenodo.23890282"
+    authors:
+      - family-names: Onorato
+        given-names: Gabriele
+        orcid: "https://orcid.org/0009-0005-4515-4171"
